@@ -1,0 +1,11 @@
+			$(document).ready(function(){
+				$(document).scroll(function(){
+					var scroll_top = $(this).scrollTop();
+					var window_height = $(window).height();
+					var document_height = $(document).height();
+					if(document_height - window_height == scroll_top){
+						alert("works");
+						});
+					}
+					});
+			});
